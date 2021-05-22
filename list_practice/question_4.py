@@ -1,11 +1,12 @@
 # wap  to store all the armstrong numbers till 100000
-for num in range(10,100001):
-
+for num in range(10,100000):
+    pow = len(str(num))
     temp=num
     sum=0
-    while temp>0:
-        digit=temp%10
-        sum=sum+digit**3
-        temp=temp//10
-        if sum==num:
-            print (num)
+    while num >0:
+        digit = num % 10
+
+        sum=sum+digit**pow
+        num=num//10
+        if temp==sum:
+            print(temp,end=' ')
