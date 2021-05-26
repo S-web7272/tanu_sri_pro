@@ -1,5 +1,5 @@
-#question type:
-# program where user can add contact for book/ display them 
+# question type:
+#  where user can add contact for book/ display them 
 #user has to enter a contact name
 #if the name is not given the program quit 
 #if the contact is available  then the number is show
