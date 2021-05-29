@@ -19,6 +19,6 @@ def update_name():
 who()
 print('global variable =>',name)
 what()
-print('global variable =>',name)
+print('global variable =>',name)   
 update_name()
 print('global variable =>', name)
