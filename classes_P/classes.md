@@ -9,5 +9,4 @@ classes and object =>
 =importing classes
 =inheritance
 =overriding methods
-=super() method
-data classes(3.7 and  abobe)
+=super() method data classes(3.7 and  abobe)
