@@ -36,7 +36,3 @@ if __name__ == "_main_":
     print('wings',c.has_wings)
     print('alive',c.is_alive)
 
-    
-
-
-       
