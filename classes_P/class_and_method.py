@@ -1,4 +1,4 @@
-class product:
+class Product:
 
     #constructor
     def __init__(self,title,price,category):
@@ -11,8 +11,8 @@ def get_discounted_price(self,discount = 10):
     disc_price = self.price * (discount/100)
     return self.price - disc_price
 
-p1 = product('wireless mouse',1200,'electonic')
-p2 = product('wireless mouse x1',3200,'electonic')
+p1 = Product('wireless mouse',1200,'electonic')
+p2 = Product('wireless mouse x1',3200,'electonic')
 
 print(p1.title)
 print('real price',p1.price)

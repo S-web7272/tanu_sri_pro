@@ -1,8 +1,14 @@
 # creating a class mobile and store mobile info  in that class
-
 class MOBILE:
-    def __init__(self,internet,power,price):
-        self.internet=internet
-        self.power=power
-        self.price=price
+    def __init__(self,device_name,model,version,price):
         
+        self.device_name=device_name
+        self.model=model
+        self.version=version
+        self.price=price
+
+if __name__ == "_main_":
+    a1 = MOBILE('oppo','CPHI909','V5.2.1',10500)
+    print(a1.device_name)
+    print(a1.model)
+    print(a1.price) 
