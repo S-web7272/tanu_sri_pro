@@ -10,6 +10,3 @@ website_url = f"https://www.google.com/search?q={search_term}&newwindow=1&safe=a
 
 driver.get(website_url) 
 
-driver.execute_script(("window.scrollTO(0,10000);"))
-time.sleep(5) # wait for 5 seconds
-print("done")
