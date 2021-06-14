@@ -23,8 +23,9 @@ for title,rating in zip(movie_titles,movie_ratings):
     data.append({
         "name":name,
         'year':year,
-        'rating':rating
+        'rating':(rating.text)
     })
 
 driver.close()
 pd.DataFrame(data).to_csv("moviemeter.csv")
+tr:nth-child(2)
